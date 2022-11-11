@@ -3,13 +3,15 @@
 First create an aws ec2 instance and login to the instance
 
 Update the ubuntu instance
-
+```bash
 <a>sudo apt-get update</a>
+```
 
 Jenkins is a java based software so first you want to install JDK 11
 
+```bash
 <a>sudo apt-get install openjdk-11-jdk</a>
-
+```
 Now install jenkins by following commands
 
 ```bash
@@ -47,7 +49,7 @@ Junkins default runnign port is 8080 so just set up it in ufw
 
 Now check the ip
 
-<ec2_ip>:8080
+aws_ip:8080
 
 You can see the jenkins interface !!!
 
