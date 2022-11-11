@@ -4,13 +4,13 @@ First create an aws ec2 instance and login to the instance
 
 Update the ubuntu instance
 ```bash
-<a>sudo apt-get update</a>
+sudo apt-get update
 ```
 
 Jenkins is a java based software so first you want to install JDK 11
 
 ```bash
-<a>sudo apt-get install openjdk-11-jdk</a>
+sudo apt-get install openjdk-11-jdk
 ```
 Now install jenkins by following commands
 
